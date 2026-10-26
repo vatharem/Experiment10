@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    background: #f7f7fb;
+    color: #25233a;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+    background: #24213d;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.hero {
+    padding: 75px 15px;
+    color: white;
+    background: linear-gradient(135deg, #302858, #7256b8, #c084b8);
+}
+
+.hero .badge {
+    background: rgba(255,255,255,0.17);
+    padding: 10px 15px;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(38px, 6vw, 65px);
+    line-height: 1.2;
+    margin: 12px 0;
+}
+
+.hero h1 span {
+    color: #ffe1b9;
+}
+
+.hero p {
+    color: #f0ebff;
+    margin-top: 18px;
+}
+
+.hero .btn {
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: #302858;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.write-card {
+    background: white;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(40, 30, 80, 0.07);
+    border: 1px solid #eeebf6;
+}
+
+.small-label {
+    color: #805ac7;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.write-card h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.form-control {
+    border: 1px solid #e5e1ef;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #8666c9;
+    box-shadow: 0 0 0 3px #8666c920;
+}
+
+.btn-publish {
+    background: #6246a5;
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-publish:hover {
+    background: #493281;
+    color: white;
+}
+
+.post-card {
+    background: white;
+    border: 1px solid #eeebf6;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 20px rgba(40,30,80,0.04);
+}
+
+.post-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.post-category {
+    color: #805ac7;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.post-content {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.8;
+    color: #656176;
+}
+
+.delete-btn {
+    border: 0;
+    border-radius: 8px;
+    background: #fff0f0;
+    color: #b33c4b;
+    padding: 7px 12px;
+}
+
+footer {
+    background: #24213d;
+    color: #d4cfe7;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 55px 15px;
+    }
+
+    .write-card, .post-card {
+        padding: 20px;
+    }
+}
